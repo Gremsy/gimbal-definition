@@ -1,0 +1,253 @@
+{
+	"version": 1,
+	"parameters": [
+		{
+			"name": "VERSION_X",
+			"type": "Int16",
+			"min": 0,
+			"group": "Info",
+		},
+		{
+			"name": "VERSION_Y",
+			"type": "Int16",
+			"min": 0,
+			"group": "Info",
+		},
+		{
+			"name": "VERSION_Z",
+			"type": "Int16",
+			"min": 0,
+			"group": "Info",
+		},
+
+		{
+			"name": "STIFFNESS_PIT",
+			"type": "Int16",
+			"shortDesc": "Pitch Stiffness",
+			"group": "Stiffness",
+			"category": "Basic",
+			"default": 20,
+		},
+		{
+			"name": "STIFFNESS_ROL",
+			"type": "Int16",
+			"shortDesc": "Roll Stiffness",
+			"group": "Stiffness",
+			"category": "Basic",
+			"default": 20,
+		},
+		{
+			"name": "STIFFNESS_YAW",
+			"type": "Int16",
+			"shortDesc": "Yaw Stiffness",
+			"group": "Stiffness",
+			"category": "Basic",
+			"default": 20,
+		},
+
+		{
+			"name": "POWER_PIT",
+			"type": "Int16",
+			"shortDesc": "Pitch Hold Strength",
+			"group": "Stiffness",
+			"category": "Expert",
+			"default": 35,
+		},
+		{
+			"name": "POWER_ROL",
+			"type": "Int16",
+			"shortDesc": "Roll Hold Strength",
+			"group": "Stiffness",
+			"category": "Expert",
+			"default": 35,
+		},
+		{
+			"name": "POWER_YAW",
+			"type": "Int16",
+			"shortDesc": "Yaw Hold Strength",
+			"group": "Stiffness",
+			"category": "Expert",
+			"default": 35,
+		},
+
+		{
+			"name": "OUTPUT_FILTER",
+			"type": "Int16",
+			"shortDesc": "Output Filter",
+			"group": "Stiffness",
+			"category": "Basic",
+			"default": 4,
+		},
+		{
+			"name": "GYRO_FILTER",
+			"type": "Int16",
+			"shortDesc": "Gyro Filter",
+			"group": "Stiffness",
+			"category": "Basic",
+			"default": 2,
+		},
+		{
+			"name": "GAIN",
+			"type": "Int16",
+			"shortDesc": "Gain",
+			"group": "Stiffness",
+			"category": "Expert",
+			"default": 120,
+		},
+
+		{
+			"name": "SPD_FOLLOW_PIT",
+			"type": "Int16",
+			"shortDesc": "Speed Follow Pitch",
+			"group": "Follow",
+			"default": 50,
+		},
+		{
+			"name": "SPD_FOLLOW_YAW",
+			"type": "Int16",
+			"shortDesc": "Speed Follow Yaw",
+			"group": "Follow",
+			"default": 50,
+		},
+
+		{
+			"name": "SMTH_FOLLOW_PIT",
+			"type": "Int16",
+			"shortDesc": "Smooth Follow Pitch",
+			"group": "Follow",
+			"default": 10,
+		},
+		{
+			"name": "SMTH_FOLLOW_YAW",
+			"type": "Int16",
+			"shortDesc": "Smooth Follow Yaw",
+			"group": "Follow",
+			"default": 10,
+		},
+
+		{
+			"name": "WND_FOLLOW_PIT",
+			"type": "Int16",
+			"shortDesc": "Window Follow Pitch",
+			"group": "Follow",
+			"default": 1,
+		},
+		{
+			"name": "WND_FOLLOW_YAW",
+			"type": "Int16",
+			"shortDesc": "Window Follow Yaw",
+			"group": "Follow",
+			"default": 1,
+		},
+
+		{
+			"name": "SPD_CONTROL_PIT",
+			"type": "Int16",
+			"shortDesc": "Speed Control Pitch",
+			"group": "Control",
+			"default": 50,
+		},	
+		{
+			"name": "SPD_CONTROL_ROL",
+			"type": "Int16",
+			"shortDesc": "Speed Control Roll",
+			"group": "Control",
+			"default": 50,
+		},	
+		{
+			"name": "SPD_CONTROL_YAW",
+			"type": "Int16",
+			"shortDesc": "Speed Control Yaw",
+			"group": "Control",
+			"default": 50,
+		},	
+
+		{
+			"name": "SMTH_CONTROL_PIT",
+			"type": "Int16",
+			"shortDesc": "Smooth Control Pitch",
+			"group": "Control",
+			"default": 10,
+		},	
+		{
+			"name": "SMTH_CONTROL_ROL",
+			"type": "Int16",
+			"shortDesc": "Smooth Control Roll",
+			"group": "Control",
+			"default": 10,
+		},	
+		{
+			"name": "SMTH_CONTROL_YAW",
+			"type": "Int16",
+			"shortDesc": "Smooth Control Yaw",
+			"group": "Control",
+			"default": 10,
+		},
+
+		{
+			"name": "AXIS_DIR",
+			"type": "Int16",
+			"shortDesc": "Axis Direction",
+			"group": "Control",
+			"bitmask": [
+				{
+					"index": 1,
+					"description": "TILT CCW"
+				},
+				{
+					"index": 2,
+					"description": "PAN CCW"
+				},
+				{
+					"index": 3,
+					"description": "ROLL CCW"
+				},
+			]
+		},
+
+		{
+			"name": "MIN_ANGLE_PIT",
+			"type": "Int16",
+			"shortDesc": "Min Pitch Angle",
+			"group": "Rotation",
+			"default": -90,
+		},
+		{
+			"name": "MAX_ANGLE_PIT",
+			"type": "Int16",
+			"shortDesc": "Max Pitch Angle",
+			"group": "Rotation",
+			"default": 45,
+		},
+
+		{
+			"name": "MIN_ANGLE_ROL",
+			"type": "Int16",
+			"shortDesc": "Min Roll Angle",
+			"group": "Rotation",
+			"default": -45,
+		},
+		{
+			"name": "MAX_ANGLE_ROL",
+			"type": "Int16",
+			"shortDesc": "Max Roll Angle",
+			"group": "Rotation",
+			"default": 45,
+		},
+
+		{
+			"name": "MIN_ANGLE_YAW",
+			"type": "Int16",
+			"shortDesc": "Min Yaw Angle",
+			"group": "Rotation",
+			"default": -320,
+		},
+		{
+			"name": "MAX_ANGLE_YAW",
+			"type": "Int16",
+			"shortDesc": "Max Yaw Angle",
+			"group": "Rotation",
+			"default": 320,
+		},
+	]
+}

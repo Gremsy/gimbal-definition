@@ -1,0 +1,21 @@
+{
+    "version": 1,
+    "vendorName": "Gremsy JSC",
+    "modelName": "T3V3",
+    "metadataTypes": [
+        {
+            "type": 1,
+            "uri": "",
+            "fileCrc": 68,
+            "uriFallback": "",
+            "fileCrcFallback": 68,
+        },
+        {
+            "type": 2,
+            "uri": "",
+            "fileCrc": 68,
+            "uriFallback": "",
+            "fileCrcFallback": 68,
+        },
+    ],
+}
