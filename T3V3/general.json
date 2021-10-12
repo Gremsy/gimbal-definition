@@ -5,7 +5,7 @@
     "metadataTypes": [
         {
             "type": 1,
-            "uri": "",
+            "uri": "https://github.com/Gremsy/gimbal-definition/blob/master/T3V3/parameter.json",
             "fileCrc": 68,
             "uriFallback": "",
             "fileCrcFallback": 68,
